@@ -1,0 +1,56 @@
+.formulario, .boxData{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3a0c0c;
+}
+
+.formulario form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario input{
+  outline: none;
+  margin: 10px 0;
+  border: 2px solid #808080;
+  padding: 1px 2px;
+  height: 30px;
+  width: 500px;
+  font-size: 35px;
+}
+
+.formulario button, .boxData button{
+  background-color: #51b0f0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.formulario a, .formulario h1, .boxData a, .boxData p{
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 2%;
+}
+
+.formulario h1{
+  font-size: 30px;
+}
+
+.formulario a{
+  text-decoration: none;
+}
+
+.formulario a:hover{
+  color:red
+}
